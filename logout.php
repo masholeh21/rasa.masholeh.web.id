@@ -1,6 +1,6 @@
 <?php
 
-$url = 'http://localhost:8000/logout';
+$url = 'http://api.masholeh.web.id/logout';
 
 $options = array(
     'http' => array(

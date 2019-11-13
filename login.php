@@ -1,6 +1,6 @@
 <?php
 
-$url = 'http://localhost:8000/login';
+$url = 'http://api.masholeh.web.id/login';
 $data = array(
 	'nim' => $_POST['nim'],
 	'password' => $_POST['password']

@@ -5,7 +5,7 @@ if($_SESSION['status'] !="login"){
 	header("location:index.php");
 }
 
-// $url = 'http://localhost:8000/user';
+// $url = 'http://api.masholeh.web.id/user';
 // $data = array(
 // 	'nim' => $_SESSION['nim']
 // );
