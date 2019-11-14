@@ -7,7 +7,7 @@
 
   curl_setopt_array($curl, array(
     CURLOPT_PORT => "5005",
-    CURLOPT_URL => "http://52.148.88.134:5005/webhooks/rest/webhook",
+    CURLOPT_URL => "http://52.148.88.134/api/webhooks/rest/webhook",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
