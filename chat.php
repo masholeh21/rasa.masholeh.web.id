@@ -81,10 +81,10 @@ if($_SESSION['status'] !="login"){
 
 		 function terserah(item) {
 
-	 	 $('input').val(item);
-		 $('.chatBox').append('<li class="msg-right"><div class="msg-right-sub"><img src="user.png"><div class="msg-desc">' + $('input').val() + '</div><small>05:25 am</small></div></li>');
-					let query  = $('input').val()
-					$('input').val('')
+	 	 $('#input').val(item);
+		 $('.chatBox').append('<li class="msg-right"><div class="msg-right-sub"><img src="user.png"><div class="msg-desc">' + $('#input').val() + '</div><small>05:25 am</small></div></li>');
+					let query  = $('#input').val()
+					$('#input').val('')
 					send(query);
 					scrolltodown();
 		}
